@@ -2,7 +2,7 @@
    
 This project involves using Python and Snowflake to extract, transform, and load data from various formats, including CSV, XML, PostgreSQL, and Snowflake Marketplace (weather data). The goal is to analyze the relationship between purchase order amounts and supplier invoice amounts, with the added dimension of analyzing the potential impact of weather conditions on any discrepancies.
 
-2.Data Sources
+2. Data Sources
 
 Purchase Orders: 41 monthly CSV files containing line-item-level data.
 Supplier Invoices: XML file with supplier invoice details.
@@ -10,7 +10,7 @@ Supplier Information: PostgreSQL database containing supplier information.
 Weather Data: NOAA weather data from Cybersyn on Snowflake Marketplace.
 Mapping Table: TXT file containing zip codes, latitudes, and longitudes to map weather stations to supplier locations.
 
-3.Project Steps
+3. Project Steps
 
 3.1 Data Extraction and Loading
 
@@ -44,7 +44,6 @@ Power BI: (Optional) Could be used for visualizing the results, though not speci
 psycopg2: For PostgreSQL interaction.
 glob: For file handling and automation of PUT operations.
 pandas: For data manipulation and transformation (if used).
-
 
 6.Expected Outcomes
 
